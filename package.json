@@ -1,5 +1,5 @@
 {
-  "name": "@uniswap/universal-router-sdk",
+  "name": "@miljan9602/dswap-universal-router-sdk",
   "version": "1.9.0",
   "description": "sdk for integrating with the Universal Router contracts",
   "main": "dist/index.js",
@@ -49,21 +49,21 @@
     "typescript": "^4.3.3"
   },
   "dependencies": {
-    "@uniswap/permit2-sdk": "^1.2.0",
-    "@uniswap/router-sdk": "^1.9.0",
-    "@uniswap/sdk-core": "^4.2.0",
+    "@miljan9602/dswap-permit2-sdk": "https://github.com/miljan9602/dswap-permit2-sdk",
+    "@miljan9602/dswap-router-sdk": "https://github.com/miljan9602/dswap-router-sdk",
+    "@miljan9602/dswap-sdk-core": "https://github.com/miljan9602/dswap-sdk-core",
+    "@miljan9602/dswap-v2-sdk": "https://github.com/miljan9602/dswap-v2-sdk",
+    "@miljan9602/dswap-v3-sdk": "https://github.com/miljan9602/dswap-v3-sdk",
     "@uniswap/universal-router": "1.6.0",
-    "@uniswap/v2-sdk": "^4.3.0",
-    "@uniswap/v3-sdk": "^3.11.0",
     "bignumber.js": "^9.0.2",
     "ethers": "^5.3.1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Uniswap/universal-router-sdk.git"
+    "url": "git+https://github.com/miljan9602/dswap-universal-router-sdk.git"
   },
   "bugs": {
-    "url": "https://github.com/Uniswap/universal-router-sdk/issues"
+    "url": "https://github.com/miljan9602/dswap-universal-router-sdk/issues"
   },
-  "homepage": "https://github.com/Uniswap/universal-router-sdk#readme"
+  "homepage": "https://github.com/miljan9602/dswap-universal-router-sdk#readme"
 }

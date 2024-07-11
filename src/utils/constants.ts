@@ -1,3 +1,4 @@
+import { ChainId } from '@miljan9602/dswap-sdk-core'
 import { BigNumber } from 'ethers'
 
 type ChainConfig = {
@@ -104,6 +105,11 @@ const CHAIN_CONFIGS: { [key: number]: ChainConfig } = {
     weth: '0x4300000000000000000000000000000000000004',
     creationBlock: 1116444,
   },
+  [ChainId.SEI_MAINNET]: {
+    router: '0x643770E279d5D0733F21d6DC03A8efbABf3255B4',
+    weth: '0x027D2E627209f1cebA52ADc8A5aFE9318459b44B',
+    creationBlock: 1116444,
+  },
 }
 
 export const UNIVERSAL_ROUTER_ADDRESS = (chainId: number): string => {
@@ -124,7 +130,7 @@ export const WETH_ADDRESS = (chainId: number): string => {
   return CHAIN_CONFIGS[chainId].weth
 }
 
-export const PERMIT2_ADDRESS = '0x000000000022D473030F116dDEE9F6B43aC78BA3'
+export const PERMIT2_ADDRESS = '0x6A7273Bad2A290EDd8893b4eA1693109B0225ec0'
 
 export const CONTRACT_BALANCE = BigNumber.from(2).pow(255)
 export const ETH_ADDRESS = '0x0000000000000000000000000000000000000000'
