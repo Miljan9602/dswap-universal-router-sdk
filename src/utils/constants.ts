@@ -107,7 +107,7 @@ const CHAIN_CONFIGS: { [key: number]: ChainConfig } = {
   },
   [ChainId.SEI_MAINNET]: {
     router: '0x643770E279d5D0733F21d6DC03A8efbABf3255B4',
-    weth: '0x027D2E627209f1cebA52ADc8A5aFE9318459b44B',
+    weth: '0xE30feDd158A2e3b13e9badaeABaFc5516e95e8C7',
     creationBlock: 1116444,
   },
 }
