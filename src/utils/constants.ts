@@ -130,7 +130,7 @@ export const WETH_ADDRESS = (chainId: number): string => {
   return CHAIN_CONFIGS[chainId].weth
 }
 
-export const PERMIT2_ADDRESS = '0x6A7273Bad2A290EDd8893b4eA1693109B0225ec0'
+export const PERMIT2_ADDRESS = '0x2f18cB9ba67B07b2d3A39707c0C6b45E73FA0cAa'
 
 export const CONTRACT_BALANCE = BigNumber.from(2).pow(255)
 export const ETH_ADDRESS = '0x0000000000000000000000000000000000000000'

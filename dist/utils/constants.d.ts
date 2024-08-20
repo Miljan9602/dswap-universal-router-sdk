@@ -2,7 +2,7 @@ import { BigNumber } from 'ethers';
 export declare const UNIVERSAL_ROUTER_ADDRESS: (chainId: number) => string;
 export declare const UNIVERSAL_ROUTER_CREATION_BLOCK: (chainId: number) => number;
 export declare const WETH_ADDRESS: (chainId: number) => string;
-export declare const PERMIT2_ADDRESS = "0x6A7273Bad2A290EDd8893b4eA1693109B0225ec0";
+export declare const PERMIT2_ADDRESS = "0x2f18cB9ba67B07b2d3A39707c0C6b45E73FA0cAa";
 export declare const CONTRACT_BALANCE: BigNumber;
 export declare const ETH_ADDRESS = "0x0000000000000000000000000000000000000000";
 export declare const E_ETH_ADDRESS = "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee";

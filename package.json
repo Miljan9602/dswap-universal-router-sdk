@@ -49,11 +49,13 @@
     "typescript": "^4.3.3"
   },
   "dependencies": {
+    
     "@miljan9602/dswap-permit2-sdk": "https://github.com/miljan9602/dswap-permit2-sdk#main",
     "@miljan9602/dswap-router-sdk": "https://github.com/miljan9602/dswap-router-sdk#main",
     "@miljan9602/dswap-sdk-core": "https://github.com/miljan9602/dswap-sdk-core#main",
     "@miljan9602/dswap-v2-sdk": "https://github.com/miljan9602/dswap-v2-sdk#main",
     "@miljan9602/dswap-v3-sdk": "https://github.com/miljan9602/dswap-v3-sdk#main",
+
     "@uniswap/universal-router": "1.6.0",
     "bignumber.js": "^9.0.2",
     "ethers": "^5.3.1"
